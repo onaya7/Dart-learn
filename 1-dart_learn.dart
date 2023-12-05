@@ -1,5 +1,6 @@
 //datatypes in dart
 void main() {
+  print("The following are the common datatypes used in dart.");
   // Var
   var name = "samuel";
   print("Var:$name");
@@ -20,9 +21,16 @@ void main() {
   int age = 30;
   print("Int:$age");
 
+  // Decimals
+  double version = 23.65;
+  print("Double:$version");
+
   // Dynamic
   dynamic guess = "pavillion";
   print("Dynamic:$guess");
+
+  bool isMan = false;
+  print("Bool:$isMan");
 
   // Declearing but not using
   var car;
