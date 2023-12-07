@@ -1,7 +1,6 @@
 void main() {
   // For loop
-  int counter;
-  for (counter = 1; counter <= 5; counter++) {
+  for (int counter = 1; counter <= 5; counter++) {
     print(counter);
   }
 
@@ -13,7 +12,7 @@ void main() {
   }
 
   // While loop
-  counter = 0;
+  int counter = 0;
   while (counter < names.length) {
     print(names[counter]);
     counter++;
